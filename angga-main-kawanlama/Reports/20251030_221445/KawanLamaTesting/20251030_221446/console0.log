@@ -1,0 +1,12 @@
+2025-10-30 22:14:47.990 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/KawanLamaTesting
+2025-10-30 22:14:48.026 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Angga Cikal Anjani
+2025-10-30 22:14:48.027 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Kawanlama Test
+2025-10-30 22:14:48.027 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = fina - mac
+2025-10-30 22:14:48.027 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-10-30 22:14:48.027 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.50.139
+2025-10-30 22:14:48.028 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.2.0
+2025-10-30 22:14:48.180 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:14:48.180 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/Valid Login
+2025-10-30 22:14:48.349 DEBUG testcase.Valid Login                     - 1: openBrowser("")
+2025-10-30 22:14:48.416 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:14:48.433 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds

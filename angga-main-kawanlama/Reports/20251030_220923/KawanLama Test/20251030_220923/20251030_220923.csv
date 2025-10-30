@@ -1,0 +1,111 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+KawanLama Test,Chrome 141.0.7390.123,,,30-10-2025 22:09:24,30-10-2025 22:14:05,4m - 40.593s,FAILED
+,,,,,,,
+Test Cases/Login/Valid Login,Chrome 141.0.7390.123,,,30-10-2025 22:09:24,30-10-2025 22:09:35,10.751s,PASSED
+"openBrowser("""")",Chrome 141.0.7390.123,,,30-10-2025 22:09:25,30-10-2025 22:09:29,3.986s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 141.0.7390.123,,,30-10-2025 22:09:29,30-10-2025 22:09:31,2.936s,PASSED
+"click(findTestObject(""Login Page/main_menu_toggle""))",Chrome 141.0.7390.123,,,30-10-2025 22:09:31,30-10-2025 22:09:32,0.353s,PASSED
+"click(findTestObject(""Login Page/login_menu""))",Chrome 141.0.7390.123,,,30-10-2025 22:09:32,30-10-2025 22:09:33,0.674s,PASSED
+"setText(findTestObject(""Login Page/input_username""), findTestData(""Login User"").getValue(1, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:09:33,30-10-2025 22:09:33,0.772s,PASSED
+"setText(findTestObject(""Login Page/input_password""), findTestData(""Login User"").getValue(2, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:09:33,30-10-2025 22:09:34,0.539s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Chrome 141.0.7390.123,,,30-10-2025 22:09:34,30-10-2025 22:09:35,0.801s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/title_make_appointment""), 10)",Chrome 141.0.7390.123,,,30-10-2025 22:09:35,30-10-2025 22:09:35,0.437s,PASSED
+closeBrowser(),Chrome 141.0.7390.123,,,30-10-2025 22:09:35,30-10-2025 22:09:35,0.101s,PASSED
+,,,,,,,
+Test Cases/Login/Logout,Chrome 141.0.7390.123,,,30-10-2025 22:10:12,30-10-2025 22:10:28,16.516s,PASSED
+"openBrowser("""")",Chrome 141.0.7390.123,,,30-10-2025 22:10:12,30-10-2025 22:10:13,1.232s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 141.0.7390.123,,,30-10-2025 22:10:13,30-10-2025 22:10:16,2.834s,PASSED
+"click(findTestObject(""Login Page/main_menu_toggle""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:16,30-10-2025 22:10:16,0.292s,PASSED
+"click(findTestObject(""Login Page/login_menu""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:16,30-10-2025 22:10:17,0.608s,PASSED
+"setText(findTestObject(""Login Page/input_username""), findTestData(""Login User"").getValue(1, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:10:17,30-10-2025 22:10:18,0.795s,PASSED
+"setText(findTestObject(""Login Page/input_password""), findTestData(""Login User"").getValue(2, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:10:18,30-10-2025 22:10:18,0.528s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:18,30-10-2025 22:10:18,0.273s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/title_make_appointment""), 10)",Chrome 141.0.7390.123,,,30-10-2025 22:10:18,30-10-2025 22:10:19,0.965s,PASSED
+"click(findTestObject(""Login Page/main_menu_toggle""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:19,30-10-2025 22:10:20,0.256s,PASSED
+"click(findTestObject(""Login Page/logout_button""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:20,30-10-2025 22:10:28,8.173s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/main_page_verify""), 10)",Chrome 141.0.7390.123,,,30-10-2025 22:10:28,30-10-2025 22:10:28,0.449s,PASSED
+closeBrowser(),Chrome 141.0.7390.123,,,30-10-2025 22:10:28,30-10-2025 22:10:28,0.098s,PASSED
+,,,,,,,
+Test Cases/Login/Login with Blank Fields,Chrome 141.0.7390.123,,,30-10-2025 22:10:28,30-10-2025 22:10:36,7.551s,PASSED
+"openBrowser("""")",Chrome 141.0.7390.123,,,30-10-2025 22:10:28,30-10-2025 22:10:30,1.241s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 141.0.7390.123,,,30-10-2025 22:10:30,30-10-2025 22:10:31,1.121s,PASSED
+"click(findTestObject(""Login Page/main_menu_toggle""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:31,30-10-2025 22:10:33,2.030s,PASSED
+"click(findTestObject(""Login Page/login_menu""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:33,30-10-2025 22:10:33,0.660s,PASSED
+"setText(findTestObject(""Login Page/input_username""), """")",Chrome 141.0.7390.123,,,30-10-2025 22:10:33,30-10-2025 22:10:34,0.635s,PASSED
+"setText(findTestObject(""Login Page/input_password""), """")",Chrome 141.0.7390.123,,,30-10-2025 22:10:34,30-10-2025 22:10:34,0.519s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:34,30-10-2025 22:10:35,0.770s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/error_message""), 10)",Chrome 141.0.7390.123,,,30-10-2025 22:10:35,30-10-2025 22:10:36,0.456s,PASSED
+closeBrowser(),Chrome 141.0.7390.123,,,30-10-2025 22:10:36,30-10-2025 22:10:36,0.094s,PASSED
+,,,,,,,
+Test Cases/Login/Invalid Login,Chrome 141.0.7390.123,,,30-10-2025 22:10:36,30-10-2025 22:10:44,7.819s,PASSED
+"openBrowser("""")",Chrome 141.0.7390.123,,,30-10-2025 22:10:36,30-10-2025 22:10:37,1.177s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 141.0.7390.123,,,30-10-2025 22:10:37,30-10-2025 22:10:40,3.043s,PASSED
+"click(findTestObject(""Login Page/main_menu_toggle""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:40,30-10-2025 22:10:40,0.278s,PASSED
+"click(findTestObject(""Login Page/login_menu""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:40,30-10-2025 22:10:41,0.609s,PASSED
+"setText(findTestObject(""Login Page/input_username""), findTestData(""Login User"").getValue(3, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:10:41,30-10-2025 22:10:42,0.820s,PASSED
+"setText(findTestObject(""Login Page/input_password""), findTestData(""Login User"").getValue(4, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:10:42,30-10-2025 22:10:42,0.535s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:42,30-10-2025 22:10:43,0.273s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/error_message""), 10)",Chrome 141.0.7390.123,,,30-10-2025 22:10:43,30-10-2025 22:10:44,0.957s,PASSED
+closeBrowser(),Chrome 141.0.7390.123,,,30-10-2025 22:10:44,30-10-2025 22:10:44,0.093s,PASSED
+,,,,,,,
+Test Cases/Login/Access Secure Pages After Logout,Chrome 141.0.7390.123,,,30-10-2025 22:10:44,30-10-2025 22:10:57,13.313s,PASSED
+"openBrowser("""")",Chrome 141.0.7390.123,,,30-10-2025 22:10:44,30-10-2025 22:10:45,1.099s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 141.0.7390.123,,,30-10-2025 22:10:45,30-10-2025 22:10:46,1.329s,PASSED
+"click(findTestObject(""Login Page/main_menu_toggle""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:46,30-10-2025 22:10:48,1.818s,PASSED
+"click(findTestObject(""Login Page/login_menu""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:48,30-10-2025 22:10:49,0.598s,PASSED
+"setText(findTestObject(""Login Page/input_username""), findTestData(""Login User"").getValue(1, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:10:49,30-10-2025 22:10:49,0.816s,PASSED
+"setText(findTestObject(""Login Page/input_password""), findTestData(""Login User"").getValue(2, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:10:49,30-10-2025 22:10:50,0.533s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:50,30-10-2025 22:10:50,0.263s,PASSED
+"click(findTestObject(""Login Page/main_menu_toggle""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:50,30-10-2025 22:10:51,1.013s,PASSED
+"click(findTestObject(""Login Page/logout_button""))",Chrome 141.0.7390.123,,,30-10-2025 22:10:51,30-10-2025 22:10:56,5.259s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/#appointment"")",Chrome 141.0.7390.123,,,30-10-2025 22:10:56,30-10-2025 22:10:56,0.029s,PASSED
+"verifyElementPresent(findTestObject(""Login Page/main_page_verify""), 10)",Chrome 141.0.7390.123,,,30-10-2025 22:10:56,30-10-2025 22:10:57,0.427s,PASSED
+closeBrowser(),Chrome 141.0.7390.123,,,30-10-2025 22:10:57,30-10-2025 22:10:57,0.098s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Successful Appointment Booking,Chrome 141.0.7390.123,,,30-10-2025 22:11:53,30-10-2025 22:12:17,23.347s,FAILED
+"openBrowser("""")",Chrome 141.0.7390.123,,,30-10-2025 22:11:53,30-10-2025 22:11:56,2.780s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 141.0.7390.123,,,30-10-2025 22:11:56,30-10-2025 22:11:59,3.278s,PASSED
+"click(findTestObject(""Login Page/main_menu_toggle""))",Chrome 141.0.7390.123,,,30-10-2025 22:11:59,30-10-2025 22:12:00,0.288s,PASSED
+"click(findTestObject(""Login Page/login_menu""))",Chrome 141.0.7390.123,,,30-10-2025 22:12:00,30-10-2025 22:12:00,0.865s,PASSED
+"setText(findTestObject(""Login Page/input_username""), findTestData(""Login User"").getValue(1, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:12:00,30-10-2025 22:12:01,0.590s,PASSED
+"setText(findTestObject(""Login Page/input_password""), findTestData(""Login User"").getValue(2, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:12:01,30-10-2025 22:12:02,0.530s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Chrome 141.0.7390.123,,,30-10-2025 22:12:02,30-10-2025 22:12:02,0.269s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment Page/select_facility""), findTestData(""Make Appointment"").getValue(1, 1), true)",Chrome 141.0.7390.123,,,30-10-2025 22:12:02,30-10-2025 22:12:03,1.494s,PASSED
+"check(findTestObject(""Make Appointment Page/checkbox_hospital_readmission""))",Chrome 141.0.7390.123,,,30-10-2025 22:12:03,30-10-2025 22:12:04,0.281s,PASSED
+"check(findTestObject(""Make Appointment Page/radio_program_medicare""))",Chrome 141.0.7390.123,,,30-10-2025 22:12:04,30-10-2025 22:12:04,0.247s,PASSED
+"setText(findTestObject(""Make Appointment Page/input_visit_date""), findTestData(""Make Appointment"").getValue(2, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:12:04,30-10-2025 22:12:04,0.544s,PASSED
+"setText(findTestObject(""Make Appointment Page/textarea_comment""), findTestData(""Make Appointment"").getValue(3, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:12:04,30-10-2025 22:12:05,0.739s,PASSED
+"click(findTestObject(""Make Appointment Page/button_Book Appointment""))",Chrome 141.0.7390.123,,,30-10-2025 22:12:05,30-10-2025 22:12:05,0.263s,PASSED
+"verifyElementText(findTestObject(""Make Appointment Page/verify_facility""), findTestData(""Make Appointment"").getValue(1, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:12:05,30-10-2025 22:12:17,11.170s,FAILED
+,,,,,,,
+Test Cases/Make Appointment/Invalid Date Entry,Chrome 141.0.7390.123,,,30-10-2025 22:12:17,30-10-2025 22:12:33,16.314s,PASSED
+"openBrowser("""")",Chrome 141.0.7390.123,,,30-10-2025 22:12:17,30-10-2025 22:12:21,4.241s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 141.0.7390.123,,,30-10-2025 22:12:21,30-10-2025 22:12:22,1.358s,PASSED
+"click(findTestObject(""Login Page/main_menu_toggle""))",Chrome 141.0.7390.123,,,30-10-2025 22:12:22,30-10-2025 22:12:26,3.866s,PASSED
+"click(findTestObject(""Login Page/login_menu""))",Chrome 141.0.7390.123,,,30-10-2025 22:12:26,30-10-2025 22:12:27,1.093s,PASSED
+"setText(findTestObject(""Login Page/input_username""), findTestData(""Login User"").getValue(1, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:12:27,30-10-2025 22:12:28,0.589s,PASSED
+"setText(findTestObject(""Login Page/input_password""), findTestData(""Login User"").getValue(2, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:12:28,30-10-2025 22:12:28,0.522s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Chrome 141.0.7390.123,,,30-10-2025 22:12:28,30-10-2025 22:12:29,0.272s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment Page/select_facility""), findTestData(""Make Appointment"").getValue(1, 1), true)",Chrome 141.0.7390.123,,,30-10-2025 22:12:29,30-10-2025 22:12:30,1.699s,PASSED
+"check(findTestObject(""Make Appointment Page/checkbox_hospital_readmission""))",Chrome 141.0.7390.123,,,30-10-2025 22:12:30,30-10-2025 22:12:31,0.253s,PASSED
+"check(findTestObject(""Make Appointment Page/radio_program_medicare""))",Chrome 141.0.7390.123,,,30-10-2025 22:12:31,30-10-2025 22:12:31,0.237s,PASSED
+"setText(findTestObject(""Make Appointment Page/input_visit_date""), """")",Chrome 141.0.7390.123,,,30-10-2025 22:12:31,30-10-2025 22:12:31,0.545s,PASSED
+"setText(findTestObject(""Make Appointment Page/textarea_comment""), findTestData(""Make Appointment"").getValue(3, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:12:31,30-10-2025 22:12:32,0.741s,PASSED
+"click(findTestObject(""Make Appointment Page/button_Book Appointment""))",Chrome 141.0.7390.123,,,30-10-2025 22:12:32,30-10-2025 22:12:32,0.284s,PASSED
+"verifyElementNotPresent(findTestObject(""Make Appointment Page/verify_Appointment Confirmation""), 10)",Chrome 141.0.7390.123,,,30-10-2025 22:12:32,30-10-2025 22:12:33,0.486s,PASSED
+closeBrowser(),Chrome 141.0.7390.123,,,30-10-2025 22:12:33,30-10-2025 22:12:33,0.099s,PASSED
+,,,,,,,
+Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission,Chrome 141.0.7390.123,,,30-10-2025 22:13:42,30-10-2025 22:14:05,22.334s,FAILED
+"openBrowser("""")",Chrome 141.0.7390.123,,,30-10-2025 22:13:42,30-10-2025 22:13:44,1.343s,PASSED
+"navigateToUrl(""https://katalon-demo-cura.herokuapp.com/"")",Chrome 141.0.7390.123,,,30-10-2025 22:13:44,30-10-2025 22:13:45,1.399s,PASSED
+"click(findTestObject(""Login Page/main_menu_toggle""))",Chrome 141.0.7390.123,,,30-10-2025 22:13:45,30-10-2025 22:13:48,2.738s,PASSED
+"click(findTestObject(""Login Page/login_menu""))",Chrome 141.0.7390.123,,,30-10-2025 22:13:48,30-10-2025 22:13:49,0.654s,PASSED
+"setText(findTestObject(""Login Page/input_username""), findTestData(""Login User"").getValue(1, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:13:49,30-10-2025 22:13:49,0.803s,PASSED
+"setText(findTestObject(""Login Page/input_password""), findTestData(""Login User"").getValue(2, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:13:49,30-10-2025 22:13:50,0.528s,PASSED
+"click(findTestObject(""Login Page/button_Login""))",Chrome 141.0.7390.123,,,30-10-2025 22:13:50,30-10-2025 22:13:51,0.769s,PASSED
+"selectOptionByValue(findTestObject(""Make Appointment Page/select_facility""), findTestData(""Make Appointment"").getValue(1, 1), true)",Chrome 141.0.7390.123,,,30-10-2025 22:13:51,30-10-2025 22:13:52,0.951s,PASSED
+"check(findTestObject(""Make Appointment Page/radio_program_medicare""))",Chrome 141.0.7390.123,,,30-10-2025 22:13:52,30-10-2025 22:13:52,0.239s,PASSED
+"setText(findTestObject(""Make Appointment Page/input_visit_date""), findTestData(""Make Appointment"").getValue(2, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:13:52,30-10-2025 22:13:52,0.535s,PASSED
+"setText(findTestObject(""Make Appointment Page/textarea_comment""), findTestData(""Make Appointment"").getValue(3, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:13:52,30-10-2025 22:13:53,0.732s,PASSED
+"click(findTestObject(""Make Appointment Page/button_Book Appointment""))",Chrome 141.0.7390.123,,,30-10-2025 22:13:53,30-10-2025 22:13:53,0.248s,PASSED
+"verifyElementText(findTestObject(""Make Appointment Page/verify_facility""), findTestData(""Make Appointment"").getValue(1, 1))",Chrome 141.0.7390.123,,,30-10-2025 22:13:53,30-10-2025 22:14:05,11.384s,FAILED

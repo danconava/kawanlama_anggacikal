@@ -1,0 +1,1429 @@
+2025-10-30 22:09:24.697 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/KawanLama Test
+2025-10-30 22:09:24.739 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Angga Cikal Anjani
+2025-10-30 22:09:24.740 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = Kawanlama Test
+2025-10-30 22:09:24.740 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = fina - mac
+2025-10-30 22:09:24.740 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Mac OS X 64bit
+2025-10-30 22:09:24.740 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.50.139
+2025-10-30 22:09:24.740 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.2.0
+2025-10-30 22:09:24.928 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:09:24.928 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/Valid Login
+2025-10-30 22:09:25.076 DEBUG testcase.Valid Login                     - 1: openBrowser("")
+2025-10-30 22:09:25.153 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:09:25.170 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:09:28 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:09:29.032 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 6157009e34605bdb386908bdb6f30a54
+2025-10-30 22:09:29.033 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:09:29.034 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:09:29.034 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:09:29.039 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:09:29.062 DEBUG testcase.Valid Login                     - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:09:31.998 DEBUG testcase.Valid Login                     - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:09:32.352 DEBUG testcase.Valid Login                     - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:09:33.026 DEBUG testcase.Valid Login                     - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:09:33.799 DEBUG testcase.Valid Login                     - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:09:34.338 DEBUG testcase.Valid Login                     - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:09:35.139 DEBUG testcase.Valid Login                     - 8: verifyElementPresent(findTestObject("Login Page/title_make_appointment"), 10)
+2025-10-30 22:09:35.576 DEBUG testcase.Valid Login                     - 9: closeBrowser()
+2025-10-30 22:09:35.679 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/Valid Login
+2025-10-30 22:09:35.685 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:09:35.685 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/Logout
+2025-10-30 22:09:35.716 DEBUG testcase.Logout                          - 1: openBrowser("")
+2025-10-30 22:09:35.718 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:09:35.719 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:09:36 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:09:37.130 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 39e4c6d6c0d44554b3ac40fa36b2f864
+2025-10-30 22:09:37.130 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:09:37.130 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:09:37.131 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:09:37.131 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:09:37.140 DEBUG testcase.Logout                          - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:09:39.916 DEBUG testcase.Logout                          - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:09:40.214 DEBUG testcase.Logout                          - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:09:40.909 DEBUG testcase.Logout                          - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:09:41.742 DEBUG testcase.Logout                          - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:09:42.283 DEBUG testcase.Logout                          - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:09:43.109 DEBUG testcase.Logout                          - 8: verifyElementPresent(findTestObject("Login Page/title_make_appointment"), 10)
+2025-10-30 22:09:43.568 DEBUG testcase.Logout                          - 9: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:09:43.835 DEBUG testcase.Logout                          - 10: click(findTestObject("Login Page/logout_button"))
+2025-10-30 22:09:53.849 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2025-10-30 22:09:53.978 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Login Page/logout_button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login Page/logout_button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:132)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Logout.run(Logout:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0.1', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [39e4c6d6c0d44554b3ac40fa36b2f864, clickElement {id=f.2ECDD19A8B439BBBF016E43CB5FF5A89.d.0024BF0B1E1E2EF49F0F0F380E74A65B.e.37}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: /var/folders/gb/8638h05d50n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49415}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49415/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:35462/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on mac (39e4c6d6c0d44554b3ac40fa36b2f864)] -> xpath: (//a[@onclick="$('#menu-close').click();"])[5]]
+Session ID: 39e4c6d6c0d44554b3ac40fa36b2f864
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$qnwGhc2n.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:132)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1731698489561.run(Script1731698489561.groovy:42)
+	... 15 more
+)
+2025-10-30 22:09:53.981 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Login/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login Page/logout_button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:132)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Logout.run(Logout:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0.1', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [39e4c6d6c0d44554b3ac40fa36b2f864, clickElement {id=f.2ECDD19A8B439BBBF016E43CB5FF5A89.d.0024BF0B1E1E2EF49F0F0F380E74A65B.e.37}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: /var/folders/gb/8638h05d50n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49415}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49415/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:35462/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on mac (39e4c6d6c0d44554b3ac40fa36b2f864)] -> xpath: (//a[@onclick="$('#menu-close').click();"])[5]]
+Session ID: 39e4c6d6c0d44554b3ac40fa36b2f864
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$qnwGhc2n.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2025-10-30 22:09:53.984 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/Logout
+2025-10-30 22:09:53.985 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:09:53.985 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/Logout
+2025-10-30 22:09:54.001 DEBUG testcase.Logout                          - 1: openBrowser("")
+2025-10-30 22:09:54.002 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-10-30 22:09:54.101 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:09:54.103 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:09:54 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:09:54.945 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 8758ef843d6ee1a760715b88a46e3be4
+2025-10-30 22:09:54.945 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:09:54.945 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:09:54.945 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:09:54.946 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:09:54.958 DEBUG testcase.Logout                          - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:09:56.046 DEBUG testcase.Logout                          - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:09:58.492 DEBUG testcase.Logout                          - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:09:59.122 DEBUG testcase.Logout                          - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:09:59.939 DEBUG testcase.Logout                          - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:10:00.464 DEBUG testcase.Logout                          - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:10:00.738 DEBUG testcase.Logout                          - 8: verifyElementPresent(findTestObject("Login Page/title_make_appointment"), 10)
+2025-10-30 22:10:01.833 DEBUG testcase.Logout                          - 9: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:10:02.100 DEBUG testcase.Logout                          - 10: click(findTestObject("Login Page/logout_button"))
+2025-10-30 22:10:12.112 WARN  c.k.k.c.w.keyword.builtin.ClickKeyword   - Waiting for element timed out
+2025-10-30 22:10:12.238 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Unable to click on object 'Object Repository/Login Page/logout_button' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login Page/logout_button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:132)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Logout.run(Logout:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0.1', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [8758ef843d6ee1a760715b88a46e3be4, clickElement {id=f.BDF00B06AA92C558E3520B39B37BC883.d.E5F5BCE3A2DB49F101DC5AB8A629C123.e.37}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: /var/folders/gb/8638h05d50n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49451}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49451/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:14068/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on mac (8758ef843d6ee1a760715b88a46e3be4)] -> xpath: (//a[@onclick="$('#menu-close').click();"])[5]]
+Session ID: 8758ef843d6ee1a760715b88a46e3be4
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$Nj5O4E0O.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:132)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Script1731698489561.run(Script1731698489561.groovy:42)
+	... 16 more
+)
+2025-10-30 22:10:12.240 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Login/Logout FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Login Page/logout_button'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeywordUntilTimeout(WebUIKeywordMain.groovy:132)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:38)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:721)
+	at Logout.run(Logout:42)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=141.0.7390.123)
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '26.0.1', java.version: '17.0.14'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [8758ef843d6ee1a760715b88a46e3be4, clickElement {id=f.BDF00B06AA92C558E3520B39B37BC883.d.E5F5BCE3A2DB49F101DC5AB8A629C123.e.37}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.123, chrome: {chromedriverVersion: 140.0.7339.82 (bc93617e21c3..., userDataDir: /var/folders/gb/8638h05d50n...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49451}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:49451/devtoo..., se:cdpVersion: 141.0.7390.123, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: {alert: ignore, beforeUnload: ignore, confirm: ignore, default: ignore, file: ignore, prompt: ignore}, webSocketUrl: ws://localhost:14068/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on mac (8758ef843d6ee1a760715b88a46e3be4)] -> xpath: (//a[@onclick="$('#menu-close').click();"])[5]]
+Session ID: 8758ef843d6ee1a760715b88a46e3be4
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:315)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxyFactory$3(WebDriverDecorator.java:405)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$Nj5O4E0O.click(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:56)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at jdk.proxy2/jdk.proxy2.$Proxy46.execute(Unknown Source)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:96)
+	at com.kms.katalon.core.webui.model.SeleniumActionRetryController.performAction(SeleniumActionRetryController.java:83)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.doCall(WebUIKeywordMain.groovy:135)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain$_runKeywordUntilTimeout_closure1.call(WebUIKeywordMain.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+2025-10-30 22:10:12.242 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/Logout
+2025-10-30 22:10:12.244 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:10:12.244 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/Logout
+2025-10-30 22:10:12.254 DEBUG testcase.Logout                          - 1: openBrowser("")
+2025-10-30 22:10:12.257 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-10-30 22:10:12.361 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:10:12.362 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:10:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:10:13.475 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 3f4c5925724456477c82bf9e214225d6
+2025-10-30 22:10:13.475 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:10:13.476 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:10:13.476 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:10:13.476 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:10:13.486 DEBUG testcase.Logout                          - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:10:16.319 DEBUG testcase.Logout                          - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:10:16.614 DEBUG testcase.Logout                          - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:10:17.222 DEBUG testcase.Logout                          - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:10:18.017 DEBUG testcase.Logout                          - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:10:18.545 DEBUG testcase.Logout                          - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:10:18.818 DEBUG testcase.Logout                          - 8: verifyElementPresent(findTestObject("Login Page/title_make_appointment"), 10)
+2025-10-30 22:10:19.784 DEBUG testcase.Logout                          - 9: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:10:20.040 DEBUG testcase.Logout                          - 10: click(findTestObject("Login Page/logout_button"))
+2025-10-30 22:10:28.213 DEBUG testcase.Logout                          - 11: verifyElementPresent(findTestObject("Login Page/main_page_verify"), 10)
+2025-10-30 22:10:28.662 DEBUG testcase.Logout                          - 12: closeBrowser()
+2025-10-30 22:10:28.760 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/Logout
+2025-10-30 22:10:28.762 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:10:28.762 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/Login with Blank Fields
+2025-10-30 22:10:28.786 DEBUG testcase.Login with Blank Fields         - 1: openBrowser("")
+2025-10-30 22:10:28.788 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:10:28.789 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:10:29 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:10:30.019 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5e9bf4cea3ab4fdf2259b376316efee4
+2025-10-30 22:10:30.019 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:10:30.019 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:10:30.020 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:10:30.020 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:10:30.027 DEBUG testcase.Login with Blank Fields         - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:10:31.148 DEBUG testcase.Login with Blank Fields         - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:10:33.178 DEBUG testcase.Login with Blank Fields         - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:10:33.838 DEBUG testcase.Login with Blank Fields         - 5: setText(findTestObject("Login Page/input_username"), "")
+2025-10-30 22:10:34.473 DEBUG testcase.Login with Blank Fields         - 6: setText(findTestObject("Login Page/input_password"), "")
+2025-10-30 22:10:34.992 DEBUG testcase.Login with Blank Fields         - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:10:35.762 DEBUG testcase.Login with Blank Fields         - 8: verifyElementPresent(findTestObject("Login Page/error_message"), 10)
+2025-10-30 22:10:36.218 DEBUG testcase.Login with Blank Fields         - 9: closeBrowser()
+2025-10-30 22:10:36.313 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/Login with Blank Fields
+2025-10-30 22:10:36.314 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:10:36.314 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/Invalid Login
+2025-10-30 22:10:36.344 DEBUG testcase.Invalid Login                   - 1: openBrowser("")
+2025-10-30 22:10:36.346 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:10:36.347 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:10:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:10:37.513 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = a7658772cad6435d0d17866a44192f86
+2025-10-30 22:10:37.514 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:10:37.514 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:10:37.514 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:10:37.514 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:10:37.521 DEBUG testcase.Invalid Login                   - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:10:40.564 DEBUG testcase.Invalid Login                   - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:10:40.845 DEBUG testcase.Invalid Login                   - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:10:41.454 DEBUG testcase.Invalid Login                   - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(3, 1))
+2025-10-30 22:10:42.274 DEBUG testcase.Invalid Login                   - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(4, 1))
+2025-10-30 22:10:42.809 DEBUG testcase.Invalid Login                   - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:10:43.081 DEBUG testcase.Invalid Login                   - 8: verifyElementPresent(findTestObject("Login Page/error_message"), 10)
+2025-10-30 22:10:44.039 DEBUG testcase.Invalid Login                   - 9: closeBrowser()
+2025-10-30 22:10:44.133 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/Invalid Login
+2025-10-30 22:10:44.135 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:10:44.135 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Login/Access Secure Pages After Logout
+2025-10-30 22:10:44.164 DEBUG t.Access Secure Pages After Logout       - 1: openBrowser("")
+2025-10-30 22:10:44.165 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:10:44.166 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:10:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:10:45.256 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 046f3b95a461a2fd0e27ebd32a416cf7
+2025-10-30 22:10:45.257 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:10:45.257 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:10:45.257 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:10:45.257 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:10:45.263 DEBUG t.Access Secure Pages After Logout       - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:10:46.592 DEBUG t.Access Secure Pages After Logout       - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:10:48.410 DEBUG t.Access Secure Pages After Logout       - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:10:49.008 DEBUG t.Access Secure Pages After Logout       - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:10:49.824 DEBUG t.Access Secure Pages After Logout       - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:10:50.357 DEBUG t.Access Secure Pages After Logout       - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:10:50.621 DEBUG t.Access Secure Pages After Logout       - 8: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:10:51.634 DEBUG t.Access Secure Pages After Logout       - 9: click(findTestObject("Login Page/logout_button"))
+2025-10-30 22:10:56.893 DEBUG t.Access Secure Pages After Logout       - 10: navigateToUrl("https://katalon-demo-cura.herokuapp.com/#appointment")
+2025-10-30 22:10:56.922 DEBUG t.Access Secure Pages After Logout       - 11: verifyElementPresent(findTestObject("Login Page/main_page_verify"), 10)
+2025-10-30 22:10:57.349 DEBUG t.Access Secure Pages After Logout       - 12: closeBrowser()
+2025-10-30 22:10:57.448 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Login/Access Secure Pages After Logout
+2025-10-30 22:10:57.449 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:10:57.449 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Make Appointment/Successful Appointment Booking
+2025-10-30 22:10:57.481 DEBUG t.Successful Appointment Booking         - 1: openBrowser("")
+2025-10-30 22:10:57.482 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:10:57.483 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:10:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:10:59.009 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 5b8f60c621eb741c0bb71fe7ae0ab3aa
+2025-10-30 22:10:59.009 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:10:59.010 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:10:59.010 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:10:59.010 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:10:59.017 DEBUG t.Successful Appointment Booking         - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:11:02.429 DEBUG t.Successful Appointment Booking         - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:11:02.732 DEBUG t.Successful Appointment Booking         - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:11:03.337 DEBUG t.Successful Appointment Booking         - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:11:04.154 DEBUG t.Successful Appointment Booking         - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:11:04.690 DEBUG t.Successful Appointment Booking         - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:11:04.967 DEBUG t.Successful Appointment Booking         - 8: selectOptionByValue(findTestObject("Make Appointment Page/select_facility"), findTestData("Make Appointment").getValue(1, 1), true)
+2025-10-30 22:11:07.134 DEBUG t.Successful Appointment Booking         - 9: check(findTestObject("Make Appointment Page/checkbox_hospital_readmission"))
+2025-10-30 22:11:07.419 DEBUG t.Successful Appointment Booking         - 10: check(findTestObject("Make Appointment Page/radio_program_medicare"))
+2025-10-30 22:11:07.663 DEBUG t.Successful Appointment Booking         - 11: setText(findTestObject("Make Appointment Page/input_visit_date"), findTestData("Make Appointment").getValue(2, 1))
+2025-10-30 22:11:08.206 DEBUG t.Successful Appointment Booking         - 12: setText(findTestObject("Make Appointment Page/textarea_comment"), findTestData("Make Appointment").getValue(3, 1))
+2025-10-30 22:11:08.905 DEBUG t.Successful Appointment Booking         - 13: click(findTestObject("Make Appointment Page/button_Book Appointment"))
+2025-10-30 22:11:09.162 DEBUG t.Successful Appointment Booking         - 14: verifyElementText(findTestObject("Make Appointment Page/verify_facility"), findTestData("Make Appointment").getValue(1, 1))
+2025-10-30 22:11:20.377 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //p[@id='facility']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-10-30 22:11:20.485 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking.run(Successful Appointment Booking:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-10-30 22:11:20.594 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking.run(Successful Appointment Booking:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+2025-10-30 22:11:20.595 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Make Appointment/Successful Appointment Booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking.run(Successful Appointment Booking:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2025-10-30 22:11:20.596 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Make Appointment/Successful Appointment Booking
+2025-10-30 22:11:20.597 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:11:20.597 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Make Appointment/Successful Appointment Booking
+2025-10-30 22:11:20.605 DEBUG t.Successful Appointment Booking         - 1: openBrowser("")
+2025-10-30 22:11:20.606 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-10-30 22:11:20.700 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:11:20.701 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:11:21 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:11:21.850 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = eab5819992efade0a26fa13055280e73
+2025-10-30 22:11:21.851 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:11:21.851 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:11:21.851 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:11:21.852 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:11:21.856 DEBUG t.Successful Appointment Booking         - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:11:22.974 DEBUG t.Successful Appointment Booking         - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:11:24.946 DEBUG t.Successful Appointment Booking         - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:11:25.539 DEBUG t.Successful Appointment Booking         - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:11:26.341 DEBUG t.Successful Appointment Booking         - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:11:26.868 DEBUG t.Successful Appointment Booking         - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:11:27.141 DEBUG t.Successful Appointment Booking         - 8: selectOptionByValue(findTestObject("Make Appointment Page/select_facility"), findTestData("Make Appointment").getValue(1, 1), true)
+2025-10-30 22:11:28.708 DEBUG t.Successful Appointment Booking         - 9: check(findTestObject("Make Appointment Page/checkbox_hospital_readmission"))
+2025-10-30 22:11:28.988 DEBUG t.Successful Appointment Booking         - 10: check(findTestObject("Make Appointment Page/radio_program_medicare"))
+2025-10-30 22:11:29.231 DEBUG t.Successful Appointment Booking         - 11: setText(findTestObject("Make Appointment Page/input_visit_date"), findTestData("Make Appointment").getValue(2, 1))
+2025-10-30 22:11:29.773 DEBUG t.Successful Appointment Booking         - 12: setText(findTestObject("Make Appointment Page/textarea_comment"), findTestData("Make Appointment").getValue(3, 1))
+2025-10-30 22:11:30.512 DEBUG t.Successful Appointment Booking         - 13: click(findTestObject("Make Appointment Page/button_Book Appointment"))
+2025-10-30 22:11:30.778 DEBUG t.Successful Appointment Booking         - 14: verifyElementText(findTestObject("Make Appointment Page/verify_facility"), findTestData("Make Appointment").getValue(1, 1))
+2025-10-30 22:11:31.101 DEBUG t.Successful Appointment Booking         - 15: verifyElementText(findTestObject("Make Appointment Page/verify_apply_hospital"), "Yes")
+2025-10-30 22:11:31.626 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Actual text 'No' and expected text 'Yes' of test object 'Object Repository/Make Appointment Page/verify_apply_hospital' are NOT matched. (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'No' and expected text 'Yes' of test object 'Object Repository/Make Appointment Page/verify_apply_hospital' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking.run(Successful Appointment Booking:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-10-30 22:11:31.733 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Verify element text of test object 'Object Repository/Make Appointment Page/verify_apply_hospital' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_apply_hospital' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking.run(Successful Appointment Booking:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'No' and expected text 'Yes' of test object 'Object Repository/Make Appointment Page/verify_apply_hospital' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+)
+2025-10-30 22:11:31.734 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Make Appointment/Successful Appointment Booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_apply_hospital' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking.run(Successful Appointment Booking:56)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Actual text 'No' and expected text 'Yes' of test object 'Object Repository/Make Appointment Page/verify_apply_hospital' are NOT matched.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:63)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2025-10-30 22:11:31.735 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Make Appointment/Successful Appointment Booking
+2025-10-30 22:11:31.736 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:11:31.736 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Make Appointment/Successful Appointment Booking
+2025-10-30 22:11:31.746 DEBUG t.Successful Appointment Booking         - 1: openBrowser("")
+2025-10-30 22:11:31.747 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-10-30 22:11:31.838 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:11:31.839 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:11:32 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:11:32.903 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 0a1db79240f9d0abe6f86c8645dfb636
+2025-10-30 22:11:32.904 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:11:32.904 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:11:32.904 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:11:32.904 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:11:32.909 DEBUG t.Successful Appointment Booking         - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:11:34.103 DEBUG t.Successful Appointment Booking         - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:11:36.608 DEBUG t.Successful Appointment Booking         - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:11:37.255 DEBUG t.Successful Appointment Booking         - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:11:38.059 DEBUG t.Successful Appointment Booking         - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:11:38.584 DEBUG t.Successful Appointment Booking         - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:11:38.857 DEBUG t.Successful Appointment Booking         - 8: selectOptionByValue(findTestObject("Make Appointment Page/select_facility"), findTestData("Make Appointment").getValue(1, 1), true)
+2025-10-30 22:11:40.364 DEBUG t.Successful Appointment Booking         - 9: check(findTestObject("Make Appointment Page/checkbox_hospital_readmission"))
+2025-10-30 22:11:40.645 DEBUG t.Successful Appointment Booking         - 10: check(findTestObject("Make Appointment Page/radio_program_medicare"))
+2025-10-30 22:11:40.888 DEBUG t.Successful Appointment Booking         - 11: setText(findTestObject("Make Appointment Page/input_visit_date"), findTestData("Make Appointment").getValue(2, 1))
+2025-10-30 22:11:41.410 DEBUG t.Successful Appointment Booking         - 12: setText(findTestObject("Make Appointment Page/textarea_comment"), findTestData("Make Appointment").getValue(3, 1))
+2025-10-30 22:11:42.137 DEBUG t.Successful Appointment Booking         - 13: click(findTestObject("Make Appointment Page/button_Book Appointment"))
+2025-10-30 22:11:42.402 DEBUG t.Successful Appointment Booking         - 14: verifyElementText(findTestObject("Make Appointment Page/verify_facility"), findTestData("Make Appointment").getValue(1, 1))
+2025-10-30 22:11:53.584 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //p[@id='facility']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-10-30 22:11:53.686 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking.run(Successful Appointment Booking:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-10-30 22:11:53.760 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking.run(Successful Appointment Booking:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+)
+2025-10-30 22:11:53.760 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Make Appointment/Successful Appointment Booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking.run(Successful Appointment Booking:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+2025-10-30 22:11:53.761 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Make Appointment/Successful Appointment Booking
+2025-10-30 22:11:53.763 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:11:53.763 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Make Appointment/Successful Appointment Booking
+2025-10-30 22:11:53.770 DEBUG t.Successful Appointment Booking         - 1: openBrowser("")
+2025-10-30 22:11:53.771 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-10-30 22:11:53.862 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:11:53.863 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:11:56 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:11:56.540 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 70b1aad38387e6d2a93ebb68a4e2b4c7
+2025-10-30 22:11:56.541 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:11:56.541 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:11:56.541 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:11:56.541 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:11:56.550 DEBUG t.Successful Appointment Booking         - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:11:59.827 DEBUG t.Successful Appointment Booking         - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:12:00.117 DEBUG t.Successful Appointment Booking         - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:12:00.982 DEBUG t.Successful Appointment Booking         - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:12:01.572 DEBUG t.Successful Appointment Booking         - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:12:02.101 DEBUG t.Successful Appointment Booking         - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:12:02.371 DEBUG t.Successful Appointment Booking         - 8: selectOptionByValue(findTestObject("Make Appointment Page/select_facility"), findTestData("Make Appointment").getValue(1, 1), true)
+2025-10-30 22:12:03.864 DEBUG t.Successful Appointment Booking         - 9: check(findTestObject("Make Appointment Page/checkbox_hospital_readmission"))
+2025-10-30 22:12:04.145 DEBUG t.Successful Appointment Booking         - 10: check(findTestObject("Make Appointment Page/radio_program_medicare"))
+2025-10-30 22:12:04.393 DEBUG t.Successful Appointment Booking         - 11: setText(findTestObject("Make Appointment Page/input_visit_date"), findTestData("Make Appointment").getValue(2, 1))
+2025-10-30 22:12:04.937 DEBUG t.Successful Appointment Booking         - 12: setText(findTestObject("Make Appointment Page/textarea_comment"), findTestData("Make Appointment").getValue(3, 1))
+2025-10-30 22:12:05.676 DEBUG t.Successful Appointment Booking         - 13: click(findTestObject("Make Appointment Page/button_Book Appointment"))
+2025-10-30 22:12:05.938 DEBUG t.Successful Appointment Booking         - 14: verifyElementText(findTestObject("Make Appointment Page/verify_facility"), findTestData("Make Appointment").getValue(1, 1))
+2025-10-30 22:12:16.953 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //p[@id='facility']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-10-30 22:12:17.044 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking.run(Successful Appointment Booking:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-10-30 22:12:17.108 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking.run(Successful Appointment Booking:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+)
+2025-10-30 22:12:17.109 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Make Appointment/Successful Appointment Booking FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking.run(Successful Appointment Booking:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+
+2025-10-30 22:12:17.110 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Make Appointment/Successful Appointment Booking
+2025-10-30 22:12:17.111 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:12:17.112 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Make Appointment/Invalid Date Entry
+2025-10-30 22:12:17.136 DEBUG testcase.Invalid Date Entry              - 1: openBrowser("")
+2025-10-30 22:12:17.138 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-10-30 22:12:17.232 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:12:17.233 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:12:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:12:21.370 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 046ffaba86fbc4fcb7601a6477317129
+2025-10-30 22:12:21.370 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:12:21.370 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:12:21.370 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:12:21.371 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:12:21.377 DEBUG testcase.Invalid Date Entry              - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:12:22.733 DEBUG testcase.Invalid Date Entry              - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:12:26.602 DEBUG testcase.Invalid Date Entry              - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:12:27.696 DEBUG testcase.Invalid Date Entry              - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:12:28.286 DEBUG testcase.Invalid Date Entry              - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:12:28.808 DEBUG testcase.Invalid Date Entry              - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:12:29.079 DEBUG testcase.Invalid Date Entry              - 8: selectOptionByValue(findTestObject("Make Appointment Page/select_facility"), findTestData("Make Appointment").getValue(1, 1), true)
+2025-10-30 22:12:30.779 DEBUG testcase.Invalid Date Entry              - 9: check(findTestObject("Make Appointment Page/checkbox_hospital_readmission"))
+2025-10-30 22:12:31.032 DEBUG testcase.Invalid Date Entry              - 10: check(findTestObject("Make Appointment Page/radio_program_medicare"))
+2025-10-30 22:12:31.269 DEBUG testcase.Invalid Date Entry              - 11: setText(findTestObject("Make Appointment Page/input_visit_date"), "")
+2025-10-30 22:12:31.814 DEBUG testcase.Invalid Date Entry              - 12: setText(findTestObject("Make Appointment Page/textarea_comment"), findTestData("Make Appointment").getValue(3, 1))
+2025-10-30 22:12:32.555 DEBUG testcase.Invalid Date Entry              - 13: click(findTestObject("Make Appointment Page/button_Book Appointment"))
+2025-10-30 22:12:32.839 DEBUG testcase.Invalid Date Entry              - 14: verifyElementNotPresent(findTestObject("Make Appointment Page/verify_Appointment Confirmation"), 10)
+2025-10-30 22:12:33.326 DEBUG testcase.Invalid Date Entry              - 15: closeBrowser()
+2025-10-30 22:12:33.426 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Make Appointment/Invalid Date Entry
+2025-10-30 22:12:33.428 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:12:33.428 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission
+2025-10-30 22:12:33.455 DEBUG  no Check Apply for hospital readmission - 1: openBrowser("")
+2025-10-30 22:12:33.456 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:12:33.456 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:12:35 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:12:35.904 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e62a50aeab5bd907f4aa413b85fd5684
+2025-10-30 22:12:35.904 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:12:35.904 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:12:35.904 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:12:35.904 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:12:35.909 DEBUG  no Check Apply for hospital readmission - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:12:39.877 DEBUG  no Check Apply for hospital readmission - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:12:40.158 DEBUG  no Check Apply for hospital readmission - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:12:40.770 DEBUG  no Check Apply for hospital readmission - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:12:41.585 DEBUG  no Check Apply for hospital readmission - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:12:42.123 DEBUG  no Check Apply for hospital readmission - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:12:42.396 DEBUG  no Check Apply for hospital readmission - 8: selectOptionByValue(findTestObject("Make Appointment Page/select_facility"), findTestData("Make Appointment").getValue(1, 1), true)
+2025-10-30 22:12:43.901 DEBUG  no Check Apply for hospital readmission - 9: check(findTestObject("Make Appointment Page/radio_program_medicare"))
+2025-10-30 22:12:44.150 DEBUG  no Check Apply for hospital readmission - 10: setText(findTestObject("Make Appointment Page/input_visit_date"), findTestData("Make Appointment").getValue(2, 1))
+2025-10-30 22:12:44.689 DEBUG  no Check Apply for hospital readmission - 11: setText(findTestObject("Make Appointment Page/textarea_comment"), findTestData("Make Appointment").getValue(3, 1))
+2025-10-30 22:12:45.413 DEBUG  no Check Apply for hospital readmission - 12: click(findTestObject("Make Appointment Page/button_Book Appointment"))
+2025-10-30 22:12:45.664 DEBUG  no Check Apply for hospital readmission - 13: verifyElementText(findTestObject("Make Appointment Page/verify_facility"), findTestData("Make Appointment").getValue(1, 1))
+2025-10-30 22:12:56.837 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //p[@id='facility']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-10-30 22:12:56.933 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking with no Check Apply for hospital readmission.run(Successful Appointment Booking with no Check Apply for hospital readmission:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-10-30 22:12:57.009 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking with no Check Apply for hospital readmission.run(Successful Appointment Booking with no Check Apply for hospital readmission:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+)
+2025-10-30 22:12:57.010 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking with no Check Apply for hospital readmission.run(Successful Appointment Booking with no Check Apply for hospital readmission:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 20 more
+
+2025-10-30 22:12:57.011 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission
+2025-10-30 22:12:57.012 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:12:57.012 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission
+2025-10-30 22:12:57.021 DEBUG  no Check Apply for hospital readmission - 1: openBrowser("")
+2025-10-30 22:12:57.022 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-10-30 22:12:57.117 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:12:57.118 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:12:57 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:12:58.025 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = ab5771eaeac0ce519a1f5afebdd8a45d
+2025-10-30 22:12:58.025 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:12:58.025 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:12:58.025 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:12:58.026 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:12:58.031 DEBUG  no Check Apply for hospital readmission - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:12:59.939 DEBUG  no Check Apply for hospital readmission - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:13:02.314 DEBUG  no Check Apply for hospital readmission - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:13:02.972 DEBUG  no Check Apply for hospital readmission - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:13:03.771 DEBUG  no Check Apply for hospital readmission - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:13:04.295 DEBUG  no Check Apply for hospital readmission - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:13:04.565 DEBUG  no Check Apply for hospital readmission - 8: selectOptionByValue(findTestObject("Make Appointment Page/select_facility"), findTestData("Make Appointment").getValue(1, 1), true)
+2025-10-30 22:13:06.230 DEBUG  no Check Apply for hospital readmission - 9: check(findTestObject("Make Appointment Page/radio_program_medicare"))
+2025-10-30 22:13:06.460 DEBUG  no Check Apply for hospital readmission - 10: setText(findTestObject("Make Appointment Page/input_visit_date"), findTestData("Make Appointment").getValue(2, 1))
+2025-10-30 22:13:06.993 DEBUG  no Check Apply for hospital readmission - 11: setText(findTestObject("Make Appointment Page/textarea_comment"), findTestData("Make Appointment").getValue(3, 1))
+2025-10-30 22:13:07.744 DEBUG  no Check Apply for hospital readmission - 12: click(findTestObject("Make Appointment Page/button_Book Appointment"))
+2025-10-30 22:13:07.998 DEBUG  no Check Apply for hospital readmission - 13: verifyElementText(findTestObject("Make Appointment Page/verify_facility"), findTestData("Make Appointment").getValue(1, 1))
+2025-10-30 22:13:19.213 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //p[@id='facility']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-10-30 22:13:19.322 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking with no Check Apply for hospital readmission.run(Successful Appointment Booking with no Check Apply for hospital readmission:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-10-30 22:13:19.392 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking with no Check Apply for hospital readmission.run(Successful Appointment Booking with no Check Apply for hospital readmission:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+)
+2025-10-30 22:13:19.393 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking with no Check Apply for hospital readmission.run(Successful Appointment Booking with no Check Apply for hospital readmission:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 21 more
+
+2025-10-30 22:13:19.394 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission
+2025-10-30 22:13:19.395 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:13:19.395 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission
+2025-10-30 22:13:19.403 DEBUG  no Check Apply for hospital readmission - 1: openBrowser("")
+2025-10-30 22:13:19.404 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-10-30 22:13:19.499 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:13:19.500 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:13:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:13:20.589 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 396aa180302f3279f4bde53db92e7c7b
+2025-10-30 22:13:20.589 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:13:20.589 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:13:20.589 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:13:20.589 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:13:20.594 DEBUG  no Check Apply for hospital readmission - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:13:21.733 DEBUG  no Check Apply for hospital readmission - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:13:26.071 DEBUG  no Check Apply for hospital readmission - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:13:26.671 DEBUG  no Check Apply for hospital readmission - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:13:27.471 DEBUG  no Check Apply for hospital readmission - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:13:27.993 DEBUG  no Check Apply for hospital readmission - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:13:28.260 DEBUG  no Check Apply for hospital readmission - 8: selectOptionByValue(findTestObject("Make Appointment Page/select_facility"), findTestData("Make Appointment").getValue(1, 1), true)
+2025-10-30 22:13:29.830 DEBUG  no Check Apply for hospital readmission - 9: check(findTestObject("Make Appointment Page/radio_program_medicare"))
+2025-10-30 22:13:30.073 DEBUG  no Check Apply for hospital readmission - 10: setText(findTestObject("Make Appointment Page/input_visit_date"), findTestData("Make Appointment").getValue(2, 1))
+2025-10-30 22:13:30.586 DEBUG  no Check Apply for hospital readmission - 11: setText(findTestObject("Make Appointment Page/textarea_comment"), findTestData("Make Appointment").getValue(3, 1))
+2025-10-30 22:13:31.287 DEBUG  no Check Apply for hospital readmission - 12: click(findTestObject("Make Appointment Page/button_Book Appointment"))
+2025-10-30 22:13:31.549 DEBUG  no Check Apply for hospital readmission - 13: verifyElementText(findTestObject("Make Appointment Page/verify_facility"), findTestData("Make Appointment").getValue(1, 1))
+2025-10-30 22:13:42.687 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //p[@id='facility']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-10-30 22:13:42.798 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking with no Check Apply for hospital readmission.run(Successful Appointment Booking with no Check Apply for hospital readmission:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-10-30 22:13:42.875 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking with no Check Apply for hospital readmission.run(Successful Appointment Booking with no Check Apply for hospital readmission:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+)
+2025-10-30 22:13:42.876 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking with no Check Apply for hospital readmission.run(Successful Appointment Booking with no Check Apply for hospital readmission:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 22 more
+
+2025-10-30 22:13:42.877 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission
+2025-10-30 22:13:42.878 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-10-30 22:13:42.878 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission
+2025-10-30 22:13:42.884 DEBUG  no Check Apply for hospital readmission - 1: openBrowser("")
+2025-10-30 22:13:42.885 WARN  c.k.k.core.webui.driver.DriverFactory    - A browser is already opened. Closing browser and opening a new one
+2025-10-30 22:13:42.981 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-10-30 22:13:42.982 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Oct 30, 2025 10:13:43 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 141, returning the closest version; found: 138; Please update to a Selenium version that supports CDP version 141
+2025-10-30 22:13:44.221 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 53f99a81a91d792a8fa9f2ac33fc2475
+2025-10-30 22:13:44.221 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 141.0.7390.123
+2025-10-30 22:13:44.221 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Mac OS X
+2025-10-30 22:13:44.221 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-10-30 22:13:44.221 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-10-30 22:13:44.227 DEBUG  no Check Apply for hospital readmission - 2: navigateToUrl("https://katalon-demo-cura.herokuapp.com/")
+2025-10-30 22:13:45.626 DEBUG  no Check Apply for hospital readmission - 3: click(findTestObject("Login Page/main_menu_toggle"))
+2025-10-30 22:13:48.365 DEBUG  no Check Apply for hospital readmission - 4: click(findTestObject("Login Page/login_menu"))
+2025-10-30 22:13:49.019 DEBUG  no Check Apply for hospital readmission - 5: setText(findTestObject("Login Page/input_username"), findTestData("Login User").getValue(1, 1))
+2025-10-30 22:13:49.822 DEBUG  no Check Apply for hospital readmission - 6: setText(findTestObject("Login Page/input_password"), findTestData("Login User").getValue(2, 1))
+2025-10-30 22:13:50.350 DEBUG  no Check Apply for hospital readmission - 7: click(findTestObject("Login Page/button_Login"))
+2025-10-30 22:13:51.120 DEBUG  no Check Apply for hospital readmission - 8: selectOptionByValue(findTestObject("Make Appointment Page/select_facility"), findTestData("Make Appointment").getValue(1, 1), true)
+2025-10-30 22:13:52.071 DEBUG  no Check Apply for hospital readmission - 9: check(findTestObject("Make Appointment Page/radio_program_medicare"))
+2025-10-30 22:13:52.310 DEBUG  no Check Apply for hospital readmission - 10: setText(findTestObject("Make Appointment Page/input_visit_date"), findTestData("Make Appointment").getValue(2, 1))
+2025-10-30 22:13:52.845 DEBUG  no Check Apply for hospital readmission - 11: setText(findTestObject("Make Appointment Page/textarea_comment"), findTestData("Make Appointment").getValue(3, 1))
+2025-10-30 22:13:53.578 DEBUG  no Check Apply for hospital readmission - 12: click(findTestObject("Make Appointment Page/button_Book Appointment"))
+2025-10-30 22:13:53.825 DEBUG  no Check Apply for hospital readmission - 13: verifyElementText(findTestObject("Make Appointment Page/verify_facility"), findTestData("Make Appointment").getValue(1, 1))
+2025-10-30 22:14:04.993 INFO  c.k.k.c.webui.common.WebUiCommonHelper   - Unable to find the element located by 'By.xpath: //p[@id='facility']'. Please recheck the objects properties to make sure the desired element is located. 
+2025-10-30 22:14:05.120 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking with no Check Apply for hospital readmission.run(Successful Appointment Booking with no Check Apply for hospital readmission:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+2025-10-30 22:14:05.209 ERROR c.k.k.core.keyword.internal.KeywordMain  - ❌ Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED. (Root cause: com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking with no Check Apply for hospital readmission.run(Successful Appointment Booking with no Check Apply for hospital readmission:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+)
+2025-10-30 22:14:05.210 ERROR c.k.katalon.core.main.TestCaseExecutor   - ❌ Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Verify element text of test object 'Object Repository/Make Appointment Page/verify_facility' FAILED.
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:49)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.verifyElementText(VerifyElementTextKeyword.groovy:78)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword.execute(VerifyElementTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:79)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementText(WebUiBuiltInKeywords.groovy:5019)
+	at Successful Appointment Booking with no Check Apply for hospital readmission.run(Successful Appointment Booking with no Check Apply for hospital readmission:51)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:486)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:477)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:456)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:322)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:406)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:71)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:145)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:104)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:205)
+	at TempTestSuite1761836963273.run(TempTestSuite1761836963273.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Make Appointment Page/verify_facility' located by '//p[@id='facility']' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:175)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.doCall(VerifyElementTextKeyword.groovy:70)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementTextKeyword$_verifyElementText_closure1.call(VerifyElementTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:41)
+	... 23 more
+
+2025-10-30 22:14:05.211 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission
+2025-10-30 22:14:05.323 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-10-30 22:14:05.323 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/KawanLama Test
+2025-10-30 22:14:05.323 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

@@ -1,0 +1,8 @@
+{"testCaseName":"Test Cases/Login/Valid Login","testCaseId":"Test Cases/Login/Valid Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Logout","testCaseId":"Test Cases/Login/Logout","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Login with Blank Fields","testCaseId":"Test Cases/Login/Login with Blank Fields","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Invalid Login","testCaseId":"Test Cases/Login/Invalid Login","iterationVariableName":""}
+{"testCaseName":"Test Cases/Login/Access Secure Pages After Logout","testCaseId":"Test Cases/Login/Access Secure Pages After Logout","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/Successful Appointment Booking","testCaseId":"Test Cases/Make Appointment/Successful Appointment Booking","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/Invalid Date Entry","testCaseId":"Test Cases/Make Appointment/Invalid Date Entry","iterationVariableName":""}
+{"testCaseName":"Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission","testCaseId":"Test Cases/Make Appointment/Successful Appointment Booking with no Check Apply for hospital readmission","iterationVariableName":""}
