@@ -1,0 +1,164 @@
+{
+	"info": {
+		"_postman_id": "003c0de6-ee14-4db9-b9b5-b2d30dd1cef5",
+		"name": "Collection_kawaLama_angga",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6818527"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"// 1. Verifikasi Status Code",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"// 2. Verifikasi Tipe Respons",
+							"pm.test(\"Response is JSON and message is 'ok'\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.type).to.eql(\"unknown\");",
+							"    // API ini mengembalikan \"message\" sebagai ID user (string), kita cek saja",
+							"    pm.expect(jsonData.message).to.not.be.empty;",
+							"});",
+							"",
+							"// 3. Simpan username ke Collection Variable untuk request selanjutnya",
+							"var requestBody = JSON.parse(pm.request.body.raw);",
+							"pm.collectionVariables.set(\"username\", requestBody.username);",
+							"pm.collectionVariables.set(\"userId\", requestBody.id); // Simpan ID juga",
+							"",
+							"console.log(\"Username \" + requestBody.username + \" disimpan ke variabel.\");"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"// 1. Verifikasi Status Code",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"// 2. Verifikasi Data Integritas",
+							"pm.test(\"Username in response matches the username sent\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    var expectedUsername = pm.collectionVariables.get(\"username\");",
+							"    pm.expect(jsonData.username).to.eql(expectedUsername);",
+							"});",
+							"",
+							"// 3. Verifikasi data lain (Spot check)",
+							"pm.test(\"Email is correct\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    pm.expect(jsonData.email).to.eql(\"angga.test@example.com\");",
+							"});"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 12345,\n  \"username\": \"angga_test_user_01\",\n  \"firstName\": \"Angga\",\n  \"lastName\": \"Test\",\n  \"email\": \"angga.test@example.com\",\n  \"password\": \"password123\",\n  \"phone\": \"08123456789\",\n  \"userStatus\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{https://petstore.swagger.io/v2}}/user",
+					"host": [
+						"{{https://petstore.swagger.io/v2}}"
+					],
+					"path": [
+						"user"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "New Request",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"exec": [
+							"// 1. Verifikasi Status Code",
+							"pm.test(\"Status code is 200\", function () {",
+							"    pm.response.to.have.status(200);",
+							"});",
+							"",
+							"// 2. Verifikasi Respon",
+							"pm.test(\"Response message indicates update\", function () {",
+							"    var jsonData = pm.response.json();",
+							"    // ID yang dikembalikan harus sama dengan ID yang kita kirim",
+							"    var expectedId = pm.collectionVariables.get(\"userId\");",
+							"    pm.expect(jsonData.message).to.eql(expectedId.toString()); ",
+							"});",
+							"",
+							"/*",
+							"Catatan Kritis: ",
+							"Untuk memvalidasi PUT sepenuhnya, kita harus menambahkan satu lagi request GET ",
+							"(duplikat dari Request 2) setelah request PUT ini. ",
+							"Request GET tambahan itu harus memverifikasi bahwa email ",
+							"telah berubah menjadi \"angga.test.updated@example.com\".",
+							"Ini memastikan bahwa perubahan tersebut *persisten* di server.",
+							"*/"
+						],
+						"type": "text/javascript",
+						"packages": {},
+						"requests": {}
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"id\": 12345, // ID harus sama\n  \"username\": \"angga_test_user_01\", // Username harus sama\n  \"firstName\": \"Angga\",\n  \"lastName\": \"Test Updated\", // Data diubah\n  \"email\": \"angga.test.updated@example.com\", // Data diubah\n  \"password\": \"password123\",\n  \"phone\": \"0899999999\", // Data diubah\n  \"userStatus\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{https://petstore.swagger.io/v2}}/user/{{angga_test_user_01}}",
+					"host": [
+						"{{https://petstore.swagger.io/v2}}"
+					],
+					"path": [
+						"user",
+						"{{angga_test_user_01}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"variable": [
+		{
+			"key": "username",
+			"value": ""
+		},
+		{
+			"key": "userId",
+			"value": ""
+		}
+	]
+}
